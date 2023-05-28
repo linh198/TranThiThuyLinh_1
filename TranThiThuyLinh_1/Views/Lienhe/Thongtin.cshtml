@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="d-flex flex-column">
+   <h1 class="text-center my-5 text-uppercase text-info">THÔNG TIN HỌC VIÊN</h1>
+
+    <div class="d-flex flex-column justify-content-between gap-3">
+        <div class="col-4 mx-auto">
+  
+      <form action="/Lienhe/Thongtin" method="post">
+                <div class="mb-3">
+                    <label for="hoten" class="form-label">Họ tên</label>
+                    <input style="text-align: center" disabled type="text" class="form-control" id="hoten" name="hoten" value="Trần Thị Thùy Linh" aria-describedby="text">
+                </div>
+                <div class="mb-3">
+                    <label for="ngaysinh" class="form-label">Ngày sinh </label>
+                    <input style="text-align: center" disabled type="text" class="form-control" id="ngaysinh" name="ngaysinh" value="19/08/1993" aria-describedby="text">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email </label>
+                    <input style="text-align: center" disabled type="text" class="form-control" id="email" name="email" value="ttlinh198@gmail.com" aria-describedby="text">
+                </div>
+                <div class="mb-3">
+                    <label for="sodienthoai" class="form-label">Số điện thoại </label>
+                    <input style="text-align: center" disabled type="text" class="form-control" id="sodienthoai" name="sodienthoai" value="0974 246 759" aria-describedby="text">
+                </div>
+            </form>
+    </div>
+  </div>
+</div>
